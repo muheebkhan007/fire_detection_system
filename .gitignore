@@ -1,0 +1,21 @@
+# Virtual Environment
+venv/
+__pycache__/
+*.pyc
+
+# Logs and runtime
+logs/
+screenshots/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Models (agar heavy ho)
+*.h5
+*.onnx
+models/__pycache__/
