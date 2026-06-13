@@ -1,0 +1,1 @@
+# FireGuard Pro – core package

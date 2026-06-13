@@ -1,0 +1,25 @@
+# FireGuard Pro – Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Core Vision & ML ──────────────────────────────────
+opencv-python>=4.8.0        # Computer vision, webcam, video I/O
+numpy>=1.24.0               # Array operations, waveform generation
+
+# ── GUI ───────────────────────────────────────────────
+PyQt5>=5.15.9               # Desktop UI framework
+
+# ── Audio ─────────────────────────────────────────────
+sounddevice>=0.4.6          # Cross-platform audio playback
+
+# ── Utilities ─────────────────────────────────────────
+# (stdlib only: csv, logging, threading, pathlib, dataclasses)
+
+# ── Optional / Future ─────────────────────────────────
+# Uncomment to enable YOLO-based detection (GPU not required):
+# ultralytics>=8.0.0        # YOLOv8 – swap into core/detector.py
+
+# Uncomment for IoT / notification integrations:
+# paho-mqtt>=1.6.0          # MQTT for IoT sensor feeds
+# requests>=2.31.0          # HTTP webhooks / REST APIs
+# twilio>=8.0.0             # SMS alerts via Twilio
+# smtplib is stdlib         # Email alerts (no extra install needed)
