@@ -1,25 +1,19 @@
-# FireGuard Pro – Python Dependencies
-# Install with: pip install -r requirements.txt
-
-# ── Core Vision & ML ──────────────────────────────────
-opencv-python>=4.8.0        # Computer vision, webcam, video I/O
-numpy>=1.24.0               # Array operations, waveform generation
-
-# ── GUI ───────────────────────────────────────────────
-PyQt5>=5.15.9               # Desktop UI framework
-
-# ── Audio ─────────────────────────────────────────────
-sounddevice>=0.4.6          # Cross-platform audio playback
-
-# ── Utilities ─────────────────────────────────────────
-# (stdlib only: csv, logging, threading, pathlib, dataclasses)
-
-# ── Optional / Future ─────────────────────────────────
-# Uncomment to enable YOLO-based detection (GPU not required):
-# ultralytics>=8.0.0        # YOLOv8 – swap into core/detector.py
-
-# Uncomment for IoT / notification integrations:
-# paho-mqtt>=1.6.0          # MQTT for IoT sensor feeds
-# requests>=2.31.0          # HTTP webhooks / REST APIs
-# twilio>=8.0.0             # SMS alerts via Twilio
-# smtplib is stdlib         # Email alerts (no extra install needed)
+anyio==4.13.0
+certifi==2026.5.20
+cffi==2.0.0
+charset-normalizer==3.4.7
+h11==0.16.0
+httpcore==1.0.9
+httpx==0.28.1
+idna==3.18
+numpy==2.4.6
+opencv-python-headless==4.13.0.92
+PyAudio==0.2.14
+pycparser==3.0
+PyQt5==5.15.11
+PyQt5-Qt5==5.15.19
+PyQt5_sip==12.18.0
+python-telegram-bot==22.7
+requests==2.34.2
+sounddevice==0.5.5
+urllib3==2.7.0
